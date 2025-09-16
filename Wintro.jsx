@@ -10,7 +10,7 @@ const Wintro =()=>{
                 imageStyle={{opacity:1}}
             >
                 {/* make it open/close tag bcs we wanna add content inside */}
-                <View style={styles.overlay}>
+                <View style={styles.overLay}>
                     {/* logo */}
                     <View style={styles.logo}>
                      <Text style={styles.logoText}>W</Text>
@@ -60,14 +60,14 @@ const styles =StyleSheet.create({
         backgroundColor: 'red',
     },
     logoText: {
-        color: '#fff',
+        color:'#fff',
         fontSize: 20,
-        fontWeight: 'bold',
+        fontWeight:'bold',
     },
     title:{
         fontSize: 21,
         color: '#fff',
-        marginVertical: 14,
+        marginVertical:14,
         fontWeight: 'bold'
     },
     subTitle:{
@@ -76,18 +76,18 @@ const styles =StyleSheet.create({
     },
     desc:{
         color: '#fff',
-        marginVertical: 14,
-        paddingHorizontal: 12,
+        marginVertical:14,
+        paddingHorizontal:12,
         textAlign: 'center',
         fontSize: 12
     },
     btn:{
-        backgroundColor: 'red',
-        paddingHorizontal: 28,
+        backgroundColor:'red',
+        paddingHorizontal:28,
         paddingVertical:12,
-        elevation: 4,
-        borderRadius: 7,
-        marginVertical: 13
+        elevation:4,
+        borderRadius:7,
+        marginVertical:13
     },
     btnText:{
         color: '#fff',
